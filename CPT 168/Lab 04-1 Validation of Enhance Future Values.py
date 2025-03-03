@@ -2,6 +2,8 @@
 #Claire Roberson, CPT 168-W18, February 6 2025, Lab 4-1
 #This validates the values input by the user
 
+#THIS IS PART 2 OF LAB 04-1. GRADE RECIEVED: 100 / 100
+
 def get_float(prompt, low, high):
     while True:
         number = float(input(prompt))
