@@ -3,6 +3,9 @@
 #Claire Roberson, January 30 2025, Lab 03-3, CPT 168-W18
 #This code calculates the monthly future value of an investment.
 
+#GRADE RECIEVED: 90 / 100
+
+
 # display a welcome message
 print("Welcome to the Future Value Calculator")
 print()
