@@ -3,6 +3,9 @@
 #Claire Roberson, January 30 2025, Lab 03-2, CPT 168-W18
 #This code calculates the average of test scores from user input, and will repeat if user types 'y'
 
+#GRADE RECIEVED: 93.33 / 100
+
+
 # display a welcome message
 print("The Test Scores application")
 print()
