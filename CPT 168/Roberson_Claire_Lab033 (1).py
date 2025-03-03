@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+
+#Claire Roberson, January 30 2025, Lab 03-3, CPT 168-W18
+#This code calculates the monthly future value of an investment.
+
+# display a welcome message
+print("Welcome to the Future Value Calculator")
+print()
+
+choice = "y"
+while choice.lower() == "y":
+
+    # get input from the user
+
+    # Checks to make sure the data entered by user is valid, by default valid is true unless the user enters an incorrect/impossible value for the input
+    valid = True
+    # Validates the monthly investment is more than 0$
+    while valid == True: 
+        monthly_investment = float(input("Enter monthly investment:\t"))
+        if monthly_investment >= 0:
+            valid = False
+        else: 
+            print("Error: Monthly investent must be greater than 0.")
+
+    valid = True
+    # Validates the yearly interest rate is greater than 0 and less than or equal to 15
+    while valid == True:
+        yearly_interest_rate = float(input("Enter yearly interest rate:\t"))
+        if yearly_interest_rate > 0 and yearly_interest_rate <= 15:
+            valid = False
+        else:
+            print("Error: Yearly interest rate must be greater than 0 and less than or equal to 15.")
+
+    valid = True
+    # Validates the number of years to be greater than 0 and less than or equal to 50
+    while valid == True:
+        years = float(input("Enter number of years:\t\t"))
+        if years > 0 and years <=50:
+            valid = False
+        else: 
+            print("Error: The number of years must be greater than 0 and less than or equal to 50.")
+
+    # convert yearly values to monthly values
+    monthly_interest_rate = yearly_interest_rate / 12 / 100
+    months = years * 12
+
+    # calculate the future value
+    future_value = 0
+    # Adds the monthly investment together to make a yearly amount for the future investment amount
+    for i in range(months):
+        future_value += monthly_investment
+        monthly_interest_amount = future_value * monthly_interest_rate
+        future_value += monthly_interest_amount
+
+        # At the end of counting to 12 for every month of the year, it puts together the future value
+        if i % 12 == 0:
+            print("Year: ", i // 12, "\t Future Value: ", round(future_value, 2))
+
+    # display the result
+    print(f"Future value:\t\t\t{round(future_value, 2)}")
+    print()
+
+    # see if the user wants to continue
+    choice = input("Continue (y/n)? ")
+    print()
+
+print("Bye!")
