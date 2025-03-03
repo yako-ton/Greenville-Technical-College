@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 #Claire Roberson, CPT 168-W18, February 6 2025, Lab 4-1
-
 #This program calculates the future values from user input, while validating the input from a seperate module
+
+# GRADE RECIEVED: 100 / 100
 
 
 #imports the module "validation" and assigns it to keyword v
