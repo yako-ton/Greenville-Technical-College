@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 #Claire Roberson, January 30 2025, Lab 03-1, CPT 168-W18
 
+#GRADE RECIEVED: 93.33 / 100
 
 
 # display a welcome message
