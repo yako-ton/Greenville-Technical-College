@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 #Claire Roberson, CPT 168-W18, February 11 2025, Lab 5-1
-
 #This program calculates the averages of test scores the user puts in until they input x to quit the program. The program was given to us with an extra counter+=1 which incorrectly calculated the averages.
+
+#GRADE RECIEVED: 100 / 100
+
+
 # display a welcome message
 print("The Test Scores application")
 print()
