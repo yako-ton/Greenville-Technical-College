@@ -2,6 +2,9 @@
 #Claire Roberson, January 25 2025, Lab 02-2, CPT 168-W18
 #This calculatues the average for 3 test scores entered by the user
 
+# GRADE RECIEVED : 100/100
+
+
 # display a welcome message
 print("The Test Scores program")
 print()
