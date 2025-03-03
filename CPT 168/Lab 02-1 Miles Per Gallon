@@ -2,6 +2,8 @@
 #Claire Roberson, January 25 2025, Lab 02-1
 #This program calculates the miles per gallon and cost per mile based off of user input
 
+# GRADE RECIEVED: 93.33 / 100
+
 
 # display a welcome message
 print("The Miles Per Gallon program")
